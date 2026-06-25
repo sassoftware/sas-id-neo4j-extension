@@ -4,19 +4,19 @@ import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from "prism-react-renderer";
 
 const config: Config = {
-  title: "<projectName> Documentation",
+  title: "sas-id-neo4j-extension Documentation",
   favicon: "https://raw.githubusercontent.com/sassoftware/.github/refs/heads/main/assets/sas.png",
 
   // Set the production url of your site here
   url: "https://sassoftware.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/<projectName>/",
+  // For GitHub pages deployment, it is often '/sas-id-neo4j-extension/'
+  baseUrl: "/sas-id-neo4j-extension/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "sassoftware", // Usually your GitHub org/user name.
-  projectName: "<projectName>", // Usually your repo name.
+  projectName: "sas-id-neo4j-extension", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -37,7 +37,7 @@ const config: Config = {
           routeBasePath: "/",
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/sassoftware/<projectName>/tree/main/website/",
+            "https://github.com/sassoftware/sas-id-neo4j-extension/tree/main/website/",
         },
         blog: false,
         theme: {
@@ -54,14 +54,14 @@ const config: Config = {
       },
     },
     navbar: {
-      title: "<projectName> Documentation",
+      title: "sas-id-neo4j-extension Documentation",
       logo: {
         alt: "SAS",
         src: "https://raw.githubusercontent.com/sassoftware/.github/refs/heads/main/assets/sas.png",
       },
       items: [
         {
-          href: "https://github.com/sassoftware/<projectName>",
+          href: "https://github.com/sassoftware/sas-id-neo4j-extension",
           className: "header-github-link",
           title: "GitHub repository",
           position: "right",
@@ -76,7 +76,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub Repository",
-              href: "https://github.com/sassoftware/<projectName>",
+              href: "https://github.com/sassoftware/sas-id-neo4j-extension",
             },
           ],
         },
