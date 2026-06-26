@@ -9,22 +9,22 @@ The following nodes are available:
 
 ---
 
-![](./website/static/id-neo4j-nodes.gif)
+![](./static/id-neo4j-nodes.gif)
 
 <details>
 <summary>Create data in Neo4j</summary>
 
-![](./website/static/id-neo4j-create.gif)
+![](./static/id-neo4j-create.gif)
 </details>
 <details>
 <summary>Update data in Neo4j</summary>
 
-![](./website/static/id-neo4j-upd.gif)
+![](./static/id-neo4j-upd.gif)
 </details>
 <details>
 <summary>Delete data in Neo4j</summary>
 
-![](./website/static/id-neo4j-delete.gif)
+![](./static/id-neo4j-delete.gif)
 </details>
 
 ---
