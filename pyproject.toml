@@ -1,0 +1,20 @@
+[project]
+name = "id-neo4j"
+version = "0.2.18"
+description = "SAS Intelligent Decisioning tools for Neo4j schema discovery, cypher generation, cypher validation and queries"
+authors = [{ name = "Clemens Knobloch", email = "clemens.knobloch@sas.com" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["neo4j>=5.0", "openai", "tiktoken"]
+
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project.urls]
+Homepage = "https://github.com/sassoftware/sas-id-neo4j-extension"
+
+[tool.setuptools.packages.find]
+where = ["data/src"]
