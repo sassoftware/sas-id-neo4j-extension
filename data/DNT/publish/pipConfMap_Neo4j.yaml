@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pip-config-neo4j
+data:
+  pip.config: |
+    [global]
+    index-url = https://github.com/sukckn/id-neo4j/releases/download/v0.2.18/id_neo4j-0.2.18-py3-none-any.whl
+    upgrade = no
+    no-dependencies = yes
+      
+    [install]
+    index-url = https://github.com/sukckn/id-neo4j/releases/download/v0.2.18/id_neo4j-0.2.18-py3-none-any.whl
+    upgrade = no
+    no-dependencies = yes
