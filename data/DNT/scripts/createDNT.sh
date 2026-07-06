@@ -1,4 +1,6 @@
 #!/bin/bash
+# Copyright © 2026, SAS Institute Inc., Cary, NC, USA.  All Rights Reserved.
+# SPDX-License-Identifier: Apache-2.0
 PY_EXEC=$(which python3)
 if [ -z "$PY_EXEC" ]; then
   echo "Python3 is not installed or not in PATH. Please install Python3 and try again."
