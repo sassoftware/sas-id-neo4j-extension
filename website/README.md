@@ -1,41 +1,13 @@
-# Website
+---
+sidebar_position: 1
+---
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+# ID-Neo4j
 
-### Installation
+**ID-Neo4j** provides decision nodes for [SAS Intelligent Decisioning](https://go.documentation.sas.com/doc/en/edmcdc/default/edmwn/titlepage.htm) to seamlessly integrate [Neo4j](https://neo4j.com/docs/) into decision flows.
 
-```
-$ yarn
-```
+The following nodes are available:
 
-### Local Development
+* **Neo4j Generate Cypher** – Generates a [Cypher](https://neo4j.com/docs/getting-started/cypher/) query using AI.
+* **Neo4j Data Query** – Executes a Cypher query against a Neo4j database.
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
