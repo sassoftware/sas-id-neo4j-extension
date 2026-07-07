@@ -14,13 +14,14 @@ For the decision flow to execute in MAS you need to set environment variable in 
     ![](../../static/Set-MAS-Env-Var-I.png)
     </details>
 * In section *spec* look for container *viya4-mas-python-runner*
-* Under container *viya4-mas-python-runner* look for section *env*<br>
-If there is no section *env* add a section under *envFrom* and before *resources*.
-    <details>
-    <summary>section env</summary>
+* Under container *viya4-mas-python-runner* look for section *env*
+  * If there is no section *env* add a section under *envFrom* and before *resources*.
 
-    ![](../../static/Set-MAS-Env-Var-II.png)
-    </details>
+  <details>
+  <summary>section env</summary>
+
+  ![](../../static/Set-MAS-Env-Var-II.png)
+  </details>
 * In section *env* add environment variables.
 
     **Example:**
