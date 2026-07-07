@@ -25,8 +25,10 @@ Parameters are separated by semicolons (;).
 NEO4J_CONOPTS='db=neo4j;server=10.0.0.4;PORT=8089;uid=neo4j;pwd=Orion123;protocol=neo4j;limit=0;'
 ```
 
->❗**Note**: For multiple databases add the *database name* with an underscore as fuffix to the variable name *NEO4J_CONOPTS*.<br>
-E.g. *NEO4J_CONOPTS_MYPRODUCTS*.<br>
-In the decision flow set input variable 'neo4j_db' to value 'myproducts'.
+
+>❗**Note**: For multiple databases add the *database name* with an underscore . as fuffix to the variable name *NEO4J_CONOPTS*.
+> E.g. *NEO4J_CONOPTS_MYPRODUCTS*.
+> In the decision flow set input variable 'neo4j_db' to value 'myproducts'.
+
 
 >❗**Important**: The variable name 'NEO4J_CONOPTS' (and fuffix database name if set) must be in uppercase!
