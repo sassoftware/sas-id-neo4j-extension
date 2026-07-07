@@ -14,8 +14,8 @@ To manually copy the resources from the Git repository follow the steps below.
     ```
 
 * Copy files from Git repository to the respective Linux derectory:
-    * [data/DNT/scripts](../../../data/DNT/scripts/) → ~/id-neo4j-dnt/scripts
-    * [data/DNT/src](../../../data/DNT/src/) → ~/id-neo4j-dnt/src
+    * [data/DNT/scripts](https://github.com/sassoftware/sas-id-neo4j-extension/tree/main/data/DNT/scripts) → ~/id-neo4j-dnt/scripts
+    * [data/DNT/src](https://github.com/sassoftware/sas-id-neo4j-extension/tree/main/data/DNT/src/) → ~/id-neo4j-dnt/src
 * Make the scripts files executable:
 
     ```

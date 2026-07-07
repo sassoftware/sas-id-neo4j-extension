@@ -6,7 +6,7 @@ sidebar_position: 8
 
 When setting up a publishing destination to deploy to SCR, you need to link the Python library to the publishing destination.
 #### Create a Kubernetes ConfigMap File
-* Download file [pipConfMap_Neo4j.yaml](../../../data/DNT/publish/pipConfMap_Neo4j.yaml) from Git repository and copy to home directory
+* Download file [pipConfMap_Neo4j.yaml](https://github.com/sassoftware/sas-id-neo4j-extension/blob/main/data/DNT/publish/pipConfMap_Neo4j.yaml) from Git repository and copy to home directory
 * Add ConfigMap file to Kubernetes
     ```
     kubectl apply -f pipConfMap_Neo4j.yaml -n <Viya Namespace>
