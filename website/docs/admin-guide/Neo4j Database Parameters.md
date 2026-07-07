@@ -5,7 +5,7 @@ sidebar_position: 9
 # Configuration
 After installing the Neo4j nodes, configure the parameters required to connect to Neo4j and the LLM.
 
-#### Neo4j Database Parameters
+### Neo4j Database Parameters
 Connection parameters are passed via the environment variable *NEO4J_CONOPTS*.
 
 | Parameter | Comment |

@@ -10,3 +10,12 @@ The following nodes are available:
 
 * **Neo4j Generate Cypher** – Generates a [Cypher](https://neo4j.com/docs/getting-started/cypher/) query using AI.
 * **Neo4j Data Query** – Executes a Cypher query against a Neo4j database.
+
+---
+
+For installation and configuration see:  
+[Administraton Guide](./admin-guide/Installation.md)
+
+For Neo4j nodes information see:  
+[User Guide](./user-guide/neo4j-data-query.md)
+

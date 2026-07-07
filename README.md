@@ -29,6 +29,10 @@ The following nodes are available:
 
 ---
 
+For full documentaion see [ID-Neo4j documentation](https://sassoftware.github.io/sas-id-neo4j-extension/).
+
+---
+
 ## License
 
 This project is licensed under the [Apache 2.0 License](LICENSE).

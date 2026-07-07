@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 21
 ---
 
 # Decision Node - Neo4j Generate Cypher

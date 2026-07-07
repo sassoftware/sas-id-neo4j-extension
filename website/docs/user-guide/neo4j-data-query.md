@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Decision Node - Neo4j Data Query
