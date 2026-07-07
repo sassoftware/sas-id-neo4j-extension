@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 10
 ---
 
 # Decision Node - Neo4j Data Query
@@ -20,7 +20,7 @@ This node executes a Cypher statement. When performing data queries, the results
 
 | Name        | Type   | Description |
 |-------------|--------|-------------|
-| cypher_para | string | JSON-formatted parameters for filtering data.<br>Example: `{"Name": "A"}` |
+| cypher_para | string | JSON-formatted parameters for filtering data.Example: `{"Name": "A"}` |
 | cypher_stmt | string | Cypher query to execute. |
 
 ## Output Parameters
