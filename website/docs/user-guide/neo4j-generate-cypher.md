@@ -4,9 +4,27 @@ sidebar_position: 22
 
 # Decision Node - Neo4j Generate Cypher
 
-This node generates a Cypher statement based on a user-defined prompt. It reads the Neo4j database schema and combines it with the user input before sending it to a Large Language Model (LLM). The LLM is restricted to generating **read-only Cypher queries**.
+The **Neo4j Generate Cypher** node converts natural-language requests into valid [Cypher](https://neo4j.com/docs/getting-started/cypher/) query statements against a connected Neo4j database.
 
-> ❗ **Note**: Currently, only Azure OpenAI models are supported.
+For example, a user can provide a request such as:
+
+> "Show me the 10 most sold products between January and June last year."
+
+The node uses a Large Language Model (LLM) to analyze the request and generate the corresponding Cypher query.
+
+### Features
+
+- Converts natural-language questions into Cypher query statements
+- Designed for data retrieval and analysis scenarios
+- Integrates with a connected Neo4j graph database
+- Uses an LLM to generate Cypher automatically
+
+### Limitations
+
+- Only **read/query operations** are supported
+- **CREATE**, **UPDATE**, and **DELETE** statements are not generated
+
+> ❗**Note:** The current release supports only **Azure OpenAI** models.
 
 ## Input Parameters
 

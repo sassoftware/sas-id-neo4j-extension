@@ -4,23 +4,54 @@ sidebar_position: 21
 
 # Decision Node - Neo4j Data Query
 
-This node executes a Cypher statement. When performing data queries, the results are returned in a tabular (data grid) format.
+The **Neo4j Data Query** node executes Cypher statements directly against a Neo4j database.
 
-<details>
-<summary><strong>Cypher Restrictions</strong></summary>
+### Supported Operations
 
-- Cypher statements used to **retrieve data (SELECT)** must return results in a **flat table structure**.
-- Queries that produce nested or complex data structures may lead to execution errors.
+- Query (MATCH/RETURN)
+- CREATE
+- UPDATE
+- DELETE
+
+When executing a **query**, the returned results are displayed in a **data grid** for easy inspection and analysis.
+
+### Use Cases
+
+- Execute Cypher statements
+- Create, update, or delete graph data
+- Retrieve and explore data stored in Neo4j
+- Validate and test Cypher queries
+
+
+When executing a query, the returned results are displayed in a **data grid** for easy inspection and analysis.
+
+### Limitations
+
+- Query results **must** be returned in a **flat tabular format** suitable for display in the data grid.
+- Nested structures such as maps, nested objects, deeply nested collections, or complex graph result structures are not supported and may lead to execution errors.
+- Queries should be written to return scalar values or flattened columns.
 - Cypher statements used to **modify data (INSERT, UPDATE, DELETE)** must **not return any results**.
 
-</details>
+**Supported Example**
+
+```cypher
+MATCH (p:Product)-[:SOLD_IN]->(r:Region)
+RETURN p.name AS Product,
+       r.name AS Region,
+       p.sales AS Sales
+```
+**Not Supported Example**
+```
+MATCH (p:Product)-[:SOLD_IN]->(r:Region)
+RETURN p, collect(r)
+```
 
 
 ## Input Parameters
 
 | Name        | Type   | Description |
 |-------------|--------|-------------|
-| cypher_para | string | JSON-formatted parameters for filtering data.Example: `{"Name": "A"}` |
+| cypher_para | string | JSON-formatted parameters for filtering data. Example: `{"Name": "A"}` |
 | cypher_stmt | string | Cypher query to execute. |
 
 ## Output Parameters
