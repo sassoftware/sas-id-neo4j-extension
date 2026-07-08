@@ -88,6 +88,12 @@ For full documentaion see [ID-Neo4j documentation](https://sassoftware.github.io
 
 ---
 
+## Support
+Project maintainers use GitHub for tracking bugs and feature requests.
+Please submit a [GitHub issue](https://github.com/sassoftware/sas-id-neo4j-extension/issues) to receive support.
+
+---
+
 ## License
 
 This project is licensed under the [Apache 2.0 License](LICENSE).
