@@ -82,6 +82,8 @@ When executing a query, the returned results are displayed in a **data grid** fo
 
 ## Documentation
 
+For installation instructions see [here](./website/docs/admin-guide/Installation.md)<br>
+For ID-Neo4j node information see [Neo4j Generate Cypher](./website/docs/user-guide/neo4j-generate-cypher.md) and [Neo4j Data Query](./website/docs/user-guide/neo4j-data-query.md)<br>
 For full documentaion see [ID-Neo4j documentation](https://sassoftware.github.io/sas-id-neo4j-extension/).
 
 ---
