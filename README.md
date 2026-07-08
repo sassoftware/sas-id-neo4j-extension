@@ -87,6 +87,5 @@ This project requires the following dependencies.
 | [openai](https://pypi.org/project/openai/) | [Apache License 2.0](https://github.com/openai/openai-python/blob/main/LICENSE) |
 
 ## Additional Resources
-- Resource
-- Resource
-- Resource
+- [Neo4j Graph Database](https://neo4j.com/product/neo4j-graph-database/)
+- [Azure AI Model Catalog](https://ai.azure.com/catalog)
