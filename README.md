@@ -47,6 +47,8 @@ When executing a query, the returned results are displayed in a **data grid** fo
 - Nested structures such as maps, nested objects, deeply nested collections, or complex graph result structures are not supported.
 - Queries should be written to return scalar values or flattened columns.
 
+---
+
 ### Query Data in Neo4j
 ![](./static/id-neo4j-nodes.gif)
 
