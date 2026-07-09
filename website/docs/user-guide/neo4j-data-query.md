@@ -60,4 +60,4 @@ RETURN p, collect(r)
 |----------------|------------|-------------|
 | neo4j_result   | data grid  | Query result returned in tabular format. |
 | error_code     | integer    | Indicates success (`0`) or failure (non-zero). |
-| error_msg      | string     | Error message (empty if successful). |
+| error_msg      | string     | Execution message. |
