@@ -86,6 +86,8 @@ This project requires the following dependencies.
 | [neo4j](https://pypi.org/project/neo4j/) | [Apache License 2.0 and Python Software Foundation License Version 2](https://github.com/neo4j/neo4j-python-driver/blob/6.x/LICENSE.txt) |
 | [openai](https://pypi.org/project/openai/) | [Apache License 2.0](https://github.com/openai/openai-python/blob/main/LICENSE) |
 
+Users must also bring their own LLM keys for use with an Azure LLM.
+
 ## Additional Resources
 - [Neo4j Graph Database](https://neo4j.com/product/neo4j-graph-database/)
 - [Azure AI Model Catalog](https://ai.azure.com/catalog)
