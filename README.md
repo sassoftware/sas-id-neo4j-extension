@@ -76,7 +76,9 @@ Project maintainers use GitHub for tracking bugs and feature requests.
 Please submit a [GitHub issue](https://github.com/sassoftware/sas-id-neo4j-extension/issues) to receive support.
 
 ## License
-Except for the the contents of the `website/static` folder, this project is licensed under the [Apache 2.0 License](LICENSE). Elements in the `website/static` folder are owned by SAS and are not released under an open source license. SAS and all other SAS Institute Inc. product or service names are registered trademarks or trademarks of SAS Institute Inc. in the USA and other countries. ® indicates USA registration.
+Except for the the contents of the `website/static` folder, this project is licensed under the [Apache 2.0 License](LICENSE).
+Elements in the `website/static` folder are owned by SAS and are not released under an open source license.
+SAS and all other SAS Institute Inc. product or service names are registered trademarks or trademarks of SAS Institute Inc. in the USA and other countries. ® indicates USA registration.
 
 ## Third-party Dependencies
 This project requires the following dependencies.
