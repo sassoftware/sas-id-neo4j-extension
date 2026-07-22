@@ -10,8 +10,10 @@ To use automated installation script to copy the resources from the Git reposito
     ```
     cd ~
     mkdir id-neo4j-dnt && cd id-neo4j-dnt
-    wget https://raw.githubusercontent.com/sukckn/id-neo4j/main/data/DNT/inst/instDNT.sh
+    wget https://raw.githubusercontent.com/sassoftware/sas-id-neo4j-extension/main/data/DNT/inst/instDNT.sh
     chmod +x instDNT.sh && ./instDNT.sh
     rm instDNT.sh
     cd scripts
     ```
+
+> **Note:** In script *instDNT.sh* *unzip* is used. You need to make sure that *unzip* is available on the Linux server.
