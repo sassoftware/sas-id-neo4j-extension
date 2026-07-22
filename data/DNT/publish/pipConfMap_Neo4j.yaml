@@ -5,11 +5,11 @@ metadata:
 data:
   pip.config: |
     [global]
-    index-url = https://github.com/sassoftware/sas-id-neo4j-extension/releases/download/v0.2.18/id_neo4j-0.2.18-py3-none-any.whl
+    index-url = https://github.com/sassoftware/sas-id-neo4j-extension/releases/download/v0.2.19/id_neo4j-0.2.19-py3-none-any.whl
     upgrade = no
     no-dependencies = yes
       
     [install]
-    index-url = https://github.com/sassoftware/sas-id-neo4j-extension/releases/download/v0.2.18/id_neo4j-0.2.18-py3-none-any.whl
+    index-url = https://github.com/sassoftware/sas-id-neo4j-extension/releases/download/v0.2.19/id_neo4j-0.2.19-py3-none-any.whl
     upgrade = no
     no-dependencies = yes

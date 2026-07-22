@@ -15,7 +15,7 @@ The Neo4j nodes rely on a Python library that must be added to the Viya Python e
     ```
 * Add the following package to the end of the list (space-separated):
     ```
-    https://github.com/sassoftware/sas-id-neo4j-extension/releases/download/v0.2.18/id_neo4j-0.2.18-py3-none-any.whl
+    https://github.com/sassoftware/sas-id-neo4j-extension/releases/download/v0.2.19/id_neo4j-0.2.19-py3-none-any.whl
     ```
     <details>
     <summary>Add Python library</summary>
