@@ -45,5 +45,5 @@ Use the provided custom steps within a SAS Studio flow to [install the ID-Neo4j 
 
 ### 4. Configure Connection Parameters
 
-[Configure the parameters](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/Neo4j%20Database%20Parameters) required to connect to both Neo4j and the Large Language Model (LLM). 
+Configure the parameters required to [connect to Neo4j](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/Neo4j%20Database%20Parameters) and the [Large Language Model (LLM)](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/Neo4j%20LLM%20Parameters). 
 
