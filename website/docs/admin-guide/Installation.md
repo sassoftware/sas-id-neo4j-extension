@@ -2,27 +2,48 @@
 sidebar_position: 20
 ---
 
-To install the Neo4j nodes in SAS Intelligent Decisioning, complete the following steps:
+To install the ID-Neo4j nodes in SAS Intelligent Decisioning, follow the steps below. You can perform the installation either from a Linux server or directly through SAS Studio.
 
-1. **Prepare the Installation Environment**
+## Option 1: Install from a Linux Server
 
-    Before installing the Neo4j nodes, copy the installation resources to a Linux server. This can be either:
-    * The SAS Viya server, or
-    * A jump server with network connectivity to the SAS Viya environment.
+### 1. Prepare the Installation Environment
 
-    You can obtain the installation resources using one of the following methods:
+Before installing the ID-Neo4j nodes, copy the installation resources to a Linux server. This can be either:
 
-    * [Manual preparation](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/Prepare%20installation%20-%20manual): Copy the required files directly from the Git repository.
-    * [Automated preparation](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/Prepare%20installation%20-%20automated): Use the provided installation script to download the resources automatically.
+- The SAS Viya server, or
+- A jump server with network connectivity to the SAS Viya environment.
 
-2. **Install the Neo4j Nodes**
+You can obtain the installation resources using one of the following methods:
 
-    [Install the Neo4j nodes](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/Install%20Decision%20Nodes) into SAS Intelligent Decisioning.
+- [**Manual Preparation**](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/Prepare%20installation%20-%20manual
+)  
+  Copy the required files directly from the Git repository.  
 
-3. **Install the Required Python Library**
-    
-    [Install the Python library](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/install-py-lib) that provides the runtime functionality for the Neo4j nodes. 
+- [**Automated Preparation**](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/Prepare%20installation%20-%20automated)
 
-4. **Configure Connection Parameters**
+  Use the provided installation script to download the required resources automatically.  
 
-    [Configure the parameters](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/Neo4j%20Database%20Parameters) required to connect to both Neo4j and the Large Language Model (LLM). 
+### 2. Install the ID-Neo4j Nodes
+
+[Deploy the ID-Neo4j nodes](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/Install%20Decision%20Nodes) to SAS Intelligent Decisioning.
+
+---
+
+## Option 2: Install Through SAS Studio
+
+### 1. Install the Nodes Using SAS Studio
+
+Use the provided custom steps within a SAS Studio flow to [install the ID-Neo4j nodes](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/Install%20via%20SAS%20Studio).
+
+---
+
+## Post-Installation Tasks
+
+### 3. Install the Required Python Library
+
+[Install the Python library](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/install-py-lib) that provides the runtime functionality for the Neo4j nodes. 
+
+### 4. Configure Connection Parameters
+
+[Configure the parameters](https://sassoftware.github.io/sas-id-neo4j-extension/admin-guide/Neo4j%20Database%20Parameters) required to connect to both Neo4j and the Large Language Model (LLM). 
+
