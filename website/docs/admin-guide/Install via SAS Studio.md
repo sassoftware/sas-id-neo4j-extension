@@ -4,10 +4,10 @@ sidebar_position: 55
 
 To install the ID-Neo4j nodes into Intelligent Decisioning via SAS Studio folow the steps below.
 
-1. Download file [DNT_Custom_Steps.json](../../../data/custom_steps/DNT_Custom_Steps.json).
+1. Download file [DNT_Custom_Steps.json](https://github.com/sassoftware/sas-id-neo4j-extension/blob/main/data/custom_steps/DNT_Custom_Steps.json).
 2. Import json file into SAS Viya.
     * This file will install custom steps to manage nodes in  Intelligent Decisioning and a studio flow to install the ID-Neo4j nodes.
-3. Download [ID-Neo4j](../../../data/DNT/src/) node source files.
+3. Download [ID-Neo4j](https://github.com/sassoftware/sas-id-neo4j-extension/tree/main/data/DNT/src) node source files.
     * Download all files in the folder.
 4. Go to SAS Studio
 5. Create a new folder and upload ID-Neo4j source files into the folder
