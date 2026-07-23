@@ -21,3 +21,5 @@ To run scroring tests in Intelligent Decisioning you need to set variables for C
     env.NEO4J_GENERATE_CYPHER='model=gpt-4.1-mini;version=2024-12-01-preview;endpoint=https://sgerabc-gpt-mini.openai.azure.com;limit=0;regenmax=3;key=<API_KEY>;'
     env.NEO4J_SYS_PROMPT_ADD = '- If a date field in the database is a STRING, treat it as a string when filtering or comparing these fields.'
 	```
+* Save the settings
+* In Kubernetes restart Pod *sas-cas-server-default-controller*
