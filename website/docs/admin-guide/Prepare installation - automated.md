@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 40
 ---
 
 To use automated installation script to copy the resources from the Git repository follow the steps below.

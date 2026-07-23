@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 100
 ---
 
 > ❗ **Note**: Currently, only Azure OpenAI models are supported.

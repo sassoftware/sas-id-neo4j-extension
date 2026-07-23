@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 20
 ---
 
 To install the Neo4j nodes in SAS Intelligent Decisioning, complete the following steps:

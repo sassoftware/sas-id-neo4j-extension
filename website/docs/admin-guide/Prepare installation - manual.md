@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 30
 ---
 
 To manually copy the resources from the Git repository follow the steps below.

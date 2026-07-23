@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 500
 ---
 
 To install the Neo4j nodes into Intelligent Decisioning folow instructions below.
