@@ -1,5 +1,5 @@
 ---
-sidebar_position: 50
+sidebar_position: 55
 ---
 
 To install the ID-Neo4j nodes into Intelligent Decisioning via SAS Studio folow the steps below.
