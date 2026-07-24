@@ -2,8 +2,6 @@
 sidebar_position: 180
 ---
 
-## Access Neo4j
-
 To access Neo4j through the Browser UI from your local machine:
 ```
 http://<server-ip>:<http-port>/browser/

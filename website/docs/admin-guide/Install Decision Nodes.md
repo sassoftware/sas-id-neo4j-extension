@@ -12,9 +12,9 @@ To install the Neo4j nodes into Intelligent Decisioning folow instructions below
 
     | Parameter | Comment |
     | --- | --- |
-    | server | Viya server URL. If running from a jump server, ensure connectivity.
-    | user | Viya admin user id |
-    | password | Viya user password |
+    | `server` | Viya server URL. If running from a jump server, ensure connectivity.
+    | `user` | Viya admin user id |
+    | `password` | Viya user password |
 
 
 **Example:**

@@ -2,7 +2,6 @@
 sidebar_position: 190
 ---
 
-## Import Sample Data
 To get started quickly, you can load the Neo4j **Northwind sample database**.
 
 **Steps:**

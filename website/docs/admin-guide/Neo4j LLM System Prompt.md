@@ -2,8 +2,6 @@
 sidebar_position: 110
 ---
 
-## Neo4j LLM System Prompt
-
 If the node *Neo4j Generate Cypher* does not generate the expected result, you can "fine-tune" the LLM system prompt by adding additional rules. These rules are submitted via the environment variable *NEO4J_SYS_PROMPT_ADD*.
 
 > **Note:** Fine-tuning the LLM system prompt is optional and should onlt be done if required!

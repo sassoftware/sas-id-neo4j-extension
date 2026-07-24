@@ -2,8 +2,6 @@
 sidebar_position: 200
 ---
 
-## Delete Sample Database in Neo4j
-
 To delete the sample database Northwind in Neo4j run the folloing commands from the Neo4j browser UI.
 
 ```

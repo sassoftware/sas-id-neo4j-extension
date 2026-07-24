@@ -2,8 +2,8 @@
 sidebar_position: 140
 ---
 
-## MAS Configuration
 For the decision flow to execute in MAS you need to set environment variable in MAS.
+
 * Open **Lens**
 * Go to **Deployments**
 * Edit *sas-microanalytic-score*

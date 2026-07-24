@@ -1,5 +1,5 @@
 ---
-sidebar_position: 210
+sidebar_position: 510
 ---
 
 # Decision Node - Neo4j Data Query
@@ -51,13 +51,13 @@ RETURN p, collect(r)
 
 | Name        | Type   | Description |
 |-------------|--------|-------------|
-| cypher_para | string | JSON-formatted parameters for filtering data. Example: `{"Name": "A"}` |
-| cypher_stmt | string | Cypher query to execute. |
+| `cypher_para` | string | JSON-formatted parameters for filtering data. Example: `{"Name": "A"}` |
+| `cypher_stmt` | string | Cypher query to execute. |
 
 ## Output Parameters
 
 | Name           | Type       | Description |
 |----------------|------------|-------------|
-| neo4j_result   | data grid  | Query result returned in tabular format. |
-| error_code     | integer    | Indicates success (`0`) or failure (non-zero). |
-| error_msg      | string     | Execution message. |
+| `neo4j_result`   | data grid  | Query result returned in tabular format. |
+| `error_code`     | integer    | Indicates success (`0`) or failure (non-zero). |
+| `error_msg`      | string     | Execution message. |

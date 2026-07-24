@@ -2,8 +2,6 @@
 sidebar_position: 150
 ---
 
-## SCR Configuration
-
 If you run the decision flow in SAS Container Runtime (SCR) set variable *NEO4J_CONOPTS* as environment variable.
 
 **Example:**

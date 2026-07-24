@@ -2,8 +2,6 @@
 sidebar_position: 170
 ---
 
-## Run Neo4j via Docker Image
-
 To run Neo4j via Docker Image execute the following steps on your Viya server:
 
 ### 1. Create the Directory Structure
